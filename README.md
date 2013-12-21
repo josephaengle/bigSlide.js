@@ -1,5 +1,9 @@
 [![Build Status](https://travis-ci.org/ascott1/bigSlide.js.png?branch=master)](https://travis-ci.org/ascott1/bigSlide.js)
 
+Dec. 20, 2013 - J. Engle
+###Update to have multiple navigations and links.
+This is really sloppy and duplicates a bunch of javascript, but gets the job done.
+///
 bigSlide is a teeny tiny (~1kb compressed) jQuery plugin for creating off-screen slide panel navigation.
 
 It will slide the navigation panel as well as any containers given the `.push` class (or a class of your choosing in the settings).
@@ -23,7 +27,7 @@ bower install bigSlide
 In your document, include a link to toggle the navigation:
 
 	<a href="#menu" class="menu-link">&#9776;</a>
-	
+
 And your nav menu:
 
 	<nav id="menu" class="panel" role="navigation">
@@ -51,7 +55,7 @@ To initialize the plugin,:
         $('.menu-link').bigSlide();
     });
     </script>
-    
+
 ## Options
 
 | Variable   | Default Value | Description       |
@@ -71,7 +75,7 @@ Although bigSlide will automatically position your menu off screen, I recommend 
 		left: -15.625em; /*right or left and the width of your navigation panel*/
 		width: 15.625em; /*should match the above value*/
 	}
-	
+
 ## License
 
 The MIT License (MIT)
